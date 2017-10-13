@@ -1,0 +1,16 @@
+Dieser Softwarelizenzvertrag bezieht sich ausschließlich auf das Modpack als ganzes nicht aber auf den Launcher und Minecraft. Minecraft und dem Launcher liegt ein eigenständiger Lizenzvertrag zu Grunde.
+
+Das Modpack ist eine Zusammenstellung von Mods von verschiedenen Herstellern. Jeder Mod unterliegt seinen eigenen Lizenzbestimmungen. Zum Zeitpunkt der Zusammenstellung haben die Modentwickler der Aufnahme der Mods in eigenen Modpacks zugestimmt. Jeder Modentwickler ist jedoch berechtigt diese Einverständnis zu widerrufen. In diesem Falle und bei Kenntnisnahme sind wir verpflichet den Mod aus dem Modpack zu entfernen.
+
+Die Mods wurden vor der Aufnahme auf Viren überprüft was wir auch bei jedem neuen Update tun werden. Es kann jedoch nicht ausgeschlossen werden, das Viren ohne unsere Kenntnis auf den PC gelangen. Deshalb ist jeder Nutzer des Modpacks dazu verpflichet einen aktuellen Virenschutz zu installieren. Für Schäden die durch das herunterladen der Mods entstehen übernehmen wir keinerlei Haftung. Alle Mods wurden von den offiziellen Modseiten wie z.B. Minecraftforum.Net, Curseforge.com oder den entsprechenden Entwicklerseiten besorgt.
+
+Das eigenständige aktualisieren des Modpacks durch das Herunterladen neuerer Versionen geschied auf eigene Gefahr. Wenn es neue Versionen der Mods gibt testen wir diese bevor wir die Mods aktualisieren.
+
+Optifine: Das Modpack sollte wegen seiner Größe ausschließlich mit dem Mod Optifine gespielt werden. Aus lizenztechnischen Gründen können wir diesen nicht mitliefern. Im Launcher befindet sich daher ein Button ganz oben neben dem Anwendungssymbol über den Sie Optifine herunterladen können. Sie werden dabei auf die Downloadseite der Optifine-Version weitergeleitet die wir mit dem Modpack getestet haben. Wenn Sie eine andere Version benutzen als die vorgeschlagene kann es passieren, das das Modpack nicht ordnungsgemäß funktioniert.
+
+Zum Starten des Modpacks wird ein Minecraft Account benötigt. Die E-Mail Adresse sowie das Passwort werden bei der Eingabe so wie das bei jedem anderen Launcher der Fall ist, zur Authentifizierung über eine SSL-Verbindung an den Minecraft Authentifizierungsserver gesendet, um die für das Starten von Minecraft notwendigen Daten zu erhalten. Diese Daten sind der Access Token, der Minecraft Benutzername, die ProfilID und wenn vorhanden der Twitch Token. Ohne diese Daten kann Minecraft nicht gestartet werden. Wenn Sie den Haken bei Benutzerdaten speichern setzen werden Ihre E-Mail Adresse, das Passwort, der Access Token, der Minecraft Benutzername, die ProfilID und der Twitch Token in der Datei config.json gespeichert. Eine erneute Authentifizierung ist dann nicht mehr nötig.
+
+Für das Modpack übernehmen wir nur eingeschränkten Support, da wir nichts an den Mods bis auf 2 ändern können. Wenden Sie sich daher möglichst an den Hersteller des Mods.
+
+Stand: 13.10.2017
+Gerichtsstand: Chemnitz, Deutschland

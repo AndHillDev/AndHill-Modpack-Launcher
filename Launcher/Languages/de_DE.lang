@@ -1,0 +1,118 @@
+[Actions]
+Options.Caption=Optionen
+Options.Hint=Zeigt den Einstellungsdialog an
+Exit.Caption=Beenden
+Exit.Hint=Beendet das Programm
+Install.Caption=Installieren
+Install.Hint=Installiert Minecraft und das AndHillTech Modpack
+Start.Caption=Starten
+Start.Hint=Startet Minecraft
+Stop.Caption=Stoppen
+Stop.Hint=Stoppt Minecraft
+Addons.Caption=Addons
+Addons.Hint=Zusätzliche Apps für den Launcher
+Help.Caption=Hilfethemen
+Help.Hint=Zeigt die Hilfedatei an
+Homepage.Caption=Homepage
+Homepage.Hint=Zeigt die Entwicklerhomepage an
+Donate.Caption=Spenden
+Donate.Hint=Zeigt unsere PayPalMe-Seite an
+Update.Caption=Updates
+Update.Hint=Sucht nach Aktualisierungen für den Launcher
+Info.Caption=Info über
+Info.Hint=Zeigt die Programminformationen an.
+
+[Toolbars]
+ToolBar.Program=Programm
+ToolBar.Minecraft=Minecraft
+Toolbar.Help=Hilfe
+
+[Tabs]
+Tab.Welcome=Willkommen
+Tab.Console=Konsolenausgabe
+Tab.ErrorLog=Error-Log
+Tab.Standard=Standard
+
+[QuickAccess]
+Optifine.Caption=Optifine herunterladen
+
+[ErrorLogHeaders]
+ErrorLogHeader.Date=Datum
+ErrorLogHeader.Time=Uhrzeit
+ErrorLogHeader.Code=Fehlercode
+ErrorLogHeader.Description=Fehlerbeschreibung
+
+[Messages]
+ExitMessage=Sind Sie sicher, das Sie den AndHill Modpack Launcher beenden möchten?
+MissingMCM=Die Datei launcher.mcm konnte nicht geladen werden. Bitte stelle sicher, das eine Verbindung ins Internet besteht und versuche es erneut.
+LogonError=Minecraft konnte nicht gestartet werden, da Sie sich nicht authentifiziert haben. Klicken Sie erneut auf Starten um ihre Benutzerdaten einzugeben.
+
+[Options]
+Caption=Optionen
+InstallPath.Caption=Installationsverzeichnis der Laufzeitumgebung:
+Interpreter.Caption=Dateiname des Java Interpreters (javaw.exe):
+ModpackInstallDir.Caption=Installationsverzeichnis für das Modpack:
+Ram.Caption=Zugeteilter Arbeitsspeicher für Minecraft:
+Language.Caption=Sprache
+Language.German=Deutsch
+Language.English=Englisch
+Update.Caption=Automatisch nach Updates suchen
+Button.Apply=Übernehmen
+Button.Cancel=Abbrechen
+RAM.Recommended=3 Gigabyte (empfohlen)
+
+[Informations]
+Caption=Programminformationen
+ProgrammedBy.Caption=Programmiert und entwickelt von Andreas Hiller
+AllRights.Caption=Alle Rechte vorbehalten
+ExternLibs.Caption=Externe Bibliotheken
+Button.Close=Schließen
+ListView.File=Datei
+ListView.Version=Version
+ListView.Manufacturer=Hersteller
+
+[Logon]
+Caption=Einloggen
+Text.Caption=Bitte geben Sie Ihre Benutzerkennung und das dazugehörige Passwort ein und klicken Sie auf Einloggen.
+Username.Caption=Benutzername (E-Mail, nicht Minecraft Benutzername):
+Password.Caption=Passwort:
+SaveUserData.Caption=Benutzerdaten speichern
+Button.Login=Einloggen
+Button.Cancel=Abbrechen
+
+[Installation]
+Caption=Installation von Minecraft + AndHillTech Modpack
+Step.Welcome.Caption=Willkommen
+Step.Welcome.Subtitle=Herzlich willkommen zur Installation des AndHillTech Modpacks. Bitte folgen Sie den Anweisungen auf dem Bildschirm. Um fortzufahren klicken Sie auf Weiter und um die Installation zu beenden auf Abbrechen.
+Step.License.Caption=Lizenzvertrag
+Step.License.Subtitle=Bitte lesen Sie sich den Lizenzvertrag durch und bestätigen Sie die Annahme mit dem Weiterbutton. Brechen Sie ab wenn Sie dem Vertrag nicht zustimmen!
+Step.InstallPath.Caption=Installationspfad
+Step.InstallPath.Subtitle=Bitte wählen Sie hier das Installationverzeichnis in dem das Modpack installiert werden soll und klicken Sie Anschließend auf Weiter. Das hier gewählte Installationsverzeichnis wird automatisch in der Configdatei gespeichert.
+Step.Ready.Caption=Bereit
+Step.Ready.Subtitle=Alle Informationen die für die Installation des AndHillTech Modpacks sowie Minecraft nötig sind liegen vor. Klicken Sie auf Weiter um die Installation zu beginnen. Die Installation kann danach nicht abgebrochen werden.
+Step.Install.Caption=Installation
+Step.Install.Subtitle=Die Installation des AndHillTech Modpacks sowie von Minecraft wird derzeit durchgeführt. Bitte warten Sie bis der Vorgang abgeschlossen ist. Dieser Vorgang kann je nach Internetverbindung einige Minuten dauern.
+Step.Done.Caption=Fertig
+Step.Done.Subtitle=Die Installation wurde erfolgreich beendet. Sie können Minecraft über den Starten-Button nun ausführen. Beachten Sie bitte, das Sie zum Starten von Minecraft ein Minecraftkonto benötigen.
+Button.Back=Zurück
+Button.Next=Weiter
+Button.Cancel=Abbrechen
+Button.Finish=Fertigstellen
+InstallPath.Caption=Installationsverzeichnis:
+Install.Dir=Verzeichnisse werden erstellt ...
+Install.Prepare=Installation wird vorbereitet ...
+Install.Download=Benötigte Dateien werden herunterladen ...
+Install.Natives=Native Bibliotheken werden ausgepackt ...
+Install.Libraries=Java Bibliotheken werden ausgepackt ...
+Install.Menu=Benutzerdefiniertes Menü wird ausgepackt ...
+Install.Register=Mods werden registriert ...
+Text.DownloadFile=Lade Datei:
+Text.File=Datei
+Text.Of=von
+Text.Downloaded=heruntergeladen ...
+Text.Extract=Entpacke:
+Text.RegisterMod=Registriere Mod
+Text.ModReg=Mods registriert ...
+
+[Update]
+Caption=Softwareaktualisierung

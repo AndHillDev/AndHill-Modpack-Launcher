@@ -1,0 +1,118 @@
+[Actions]
+Options.Caption=Options
+Options.Hint=Opens the settings dialog
+Exit.Caption=Exit
+Exit.Hint=Exits the program
+Install.Caption=Install
+Install.Hint=Installs Minecraft and the AndHillTech Modpack
+Start.Caption=Start
+Start.Hint=Starts Minecraft
+Stop.Caption=Stop
+Stop.Hint=Stops Minecraft
+Addons.Caption=Addons
+Addons.Hint=Additional apps for the launcher
+Help.Caption=Help Topics
+Help.Hint=Shows the helpfile
+Homepage.Caption=Homepage
+Homepage.Hint=Shows the developerwebsite
+Donate.Caption=Donate
+Donate.Hint=Shows our PayPalMe-Page
+Update.Caption=Updates
+Update.Hint=Search for updates for Launcher
+Info.Caption=About
+Info.Hint=Shows the about dialog
+
+[Toolbars]
+ToolBar.Program=Program
+ToolBar.Minecraft=Minecraft
+Toolbar.Help=Help
+
+[Tabs]
+Tab.Welcome=Welcome
+Tab.Console=Console Output
+Tab.ErrorLog=Error-Log
+Tab.Standard=Standard
+
+[QuickAccess]
+Optifine.Caption=Download Optifine
+
+[ErrorLogHeaders]
+ErrorLogHeader.Date=Date
+ErrorLogHeader.Time=Time
+ErrorLogHeader.Code=Error Code
+ErrorLogHeader.Description=Error Description
+
+[Messages]
+ExitMessage=Are you sure that you want to quit the AndHill Modpack Launcher?
+MissingMCM=The file launcher.mcm could not be downloaded. Please make sure, that you are connected to the internet and try it again.
+LogonError=Minecraft could not be started because you don't have be authenticated. Please click on Start again and enter your Minecraft user data.
+
+[Options]
+Caption=Options
+InstallPath.Caption=Install Folder of the Java Runtime Enviroment:
+Interpreter.Caption=Filename of the Java interpreter (javaw.exe):
+ModpackInstallDir.Caption=Install Folder for the Modpack:
+Ram.Caption=Assigned memory for Minecraft:
+Language.Caption=Language
+Language.German=German
+Language.English=English
+Update.Caption=Search for updates automatically
+Button.Apply=Apply
+Button.Cancel=Cancel
+RAM.Recommended=3 Gigabyte (Recommended)
+
+[Informations]
+Caption=Program Informationen
+ProgrammedBy.Caption=Programmed and developed by Andreas Hiller
+AllRights.Caption=All rights reserved
+ExternLibs.Caption=Extern Libraries
+Button.Close=Close
+ListView.File=File
+ListView.Version=Version
+ListView.Manufacturer=Manufacturer
+
+[Logon]
+Caption=Log On
+Text.Caption=Please enter your username and your password in the input fields below and click on Login. 
+Username.Caption=Username (E-Mail, not Minecraft username!):
+Password.Caption=Password:
+SaveUserData.Caption=Save userdata
+Button.Login=Login
+Button.Cancel=Cancel
+
+[Installation]
+Caption=Installation of Minecraft + AndHillTech Modpack
+Step.Welcome.Caption=Welcome
+Step.Welcome.Subtitle=Welcome to the installation of the AndHillTech modpack. Please follow the instructions on the screen. Click on Next to start the installation or on Cancel to abort the installation.
+Step.License.Caption=License Agreement
+Step.License.Subtitle=Please read the license agreement and confirm it by clicking on the Next button. Click on Cancel if you don't agree with the License Agreement.
+Step.InstallPath.Caption=Install Folder
+Step.InstallPath.Subtitle=Please choose the installation folder in which the modpack should be installed and click on Next. The installation folder you choose here will be saved in the config file automatically.
+Step.Ready.Caption=Ready
+Step.Ready.Subtitle=All informations for the installation of the AndHillTech modpack are available. Click on Next to start the installation. This process can not be canceled.
+Step.Install.Caption=Installation
+Step.Install.Subtitle=The Installation of the AndHillTech modpack and Minecraft is in process. Please wait until this process is finished. This process can take some minutes depending on your internet connection.
+Step.Done.Caption=Done
+Step.Done.Subtitle=The installation is done. You can start Minecraft with the start button. Please remember, that you need a Minecraft account to start Minecraft.
+Button.Back=Back
+Button.Next=Next
+Button.Cancel=Cancel
+Button.Finish=Finish
+InstallPath.Caption=Installation Folder:
+Install.Dir=Creating Directories ...
+Install.Prepare=Preparing the installation ...
+Install.Download=Downloading required files ...
+Install.Natives=Extracting native libraries ...
+Install.Libraries=Extracting java libraries ...
+Install.Menu=Extracting custom menu ...
+Install.Register=Registering downloaded mods ...
+Text.DownloadFile=Loading File: 
+Text.File=File
+Text.Of=of
+Text.Downloaded=downloaded ...
+Text.Extract=Extracting:
+Text.RegisterMod=Registering Mod
+Text.ModReg=Mods registered ...
+
+[Update]
+Caption=Software Update

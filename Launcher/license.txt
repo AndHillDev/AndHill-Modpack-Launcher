@@ -1,0 +1,16 @@
+This software licensing contract refers exclusively to the mod pack, but not to the launcher and minecraft. Minecraft and the launcher is based on a separate license agreement.
+
+The Modpack is a compilation of mods from different manufacturers. Each mod is subjected to its own license terms. At the time of the compilation the mod developers agreed to use the mods in my own modpack. However, each mod developer is entitled to revoke this consent. In this case and with knowledge, we are obligated to remove the mod from the modpack.
+
+The mods were checked for viruses before recording, which we will do with every new update. However, it is not possible to exclude viruses without our knowledge on your PC. Therefore every user of the mod pack is obliged to install a current virus protection. For damages caused by the download of the mods we assume no liability. All mods are from the official mod pages, e.g. Minecraftforum.Net, Curseforge.com or the relevant developer pages.
+
+The update of the modpack by downloading newer versions of the mods take place at your own risk. If there are new versions of the mods we are testing it before we update the mods.
+
+Optifine: Because of its size, of the mod pack it should only be played with the mod Optifine. For licensing reasons we can not deliver it. In the launcher, there is a button at the top nearby the application icon that you can use to download Optifine. You will be redirected to the download page of the Optifine version, which we have tested with the mod pack. If you use a different version than the suggested one, the mod pack may not work properly.
+
+A Minecraft account is required to start the modpack. The e-mail address and the password will be sent to the Minecraft authentication server for authentication via an SSL connection in order to receive the necessary data to start Minecraft. This data is the Access Token, the Minecraft username, the ProfileID, and the Twitch Token, if it is available. Without these data, Minecraft can not be started. If you set the Save user data checkbox, your e-mail address, password, access token, Minecraft username, profile ID and the twitch token are stored in the config.json file. Reauthentication is then no longer necessary.
+
+For the Modpack, we accept only limited support, since we can not change the mods accept for two. If possible, please contact the manufacturer of the mod.
+
+Stand: 13.10.2017
+Court of jurisdiction: Chemnitz, Germany
