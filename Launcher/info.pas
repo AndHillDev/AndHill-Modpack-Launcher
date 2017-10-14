@@ -37,8 +37,11 @@ var
 
 implementation
 
+uses main;
+
 {$R *.dfm}
 
+function GetProgramTitle(name, version: String): String; StdCall; external 'Libraries\AHDLibrary.dll';
 procedure ExecuteFile(Filename, Params, WorkDir: String); StdCall; external 'Libraries\AHDLibrary.dll';
 
 procedure TinfoFrm.Label6Click(Sender: TObject);
@@ -54,6 +57,7 @@ end;
 procedure TinfoFrm.FormCreate(Sender: TObject);
 begin
   infoFrm.DoubleBuffered:=true;
+  Label1.Caption:=GetProgramTitle(mainFrm.ExeInfo1.ProductName, mainFrm.ExeInfo1.FileVersion);
 end;
 
 procedure TinfoFrm.BitBtn1Click(Sender: TObject);

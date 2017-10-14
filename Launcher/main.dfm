@@ -1,6 +1,6 @@
 object mainFrm: TmainFrm
-  Left = 447
-  Top = 215
+  Left = 621
+  Top = 313
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   ClientHeight = 611
@@ -3765,7 +3765,7 @@ object mainFrm: TmainFrm
         Progress.ShowBorder = False
         Progress.Stacked = False
         Style = psDate
-        Text = '13.10.2017'
+        Text = '14.10.2017'
         TimeFormat = 'hh:mm:ss'
         Width = 80
       end
@@ -3792,7 +3792,7 @@ object mainFrm: TmainFrm
         Progress.ShowBorder = False
         Progress.Stacked = False
         Style = psTime
-        Text = '16:12:02'
+        Text = '04:00:44'
         TimeFormat = 'hh:mm:ss'
         Width = 65
       end
@@ -4707,14 +4707,6 @@ object mainFrm: TmainFrm
         SubMenuItemSpacing = 4
       end
       item
-        Action = exitAction
-        CanSelect = False
-        SubItems = <>
-        SubMenuCaption = 'SubMenuCaption'
-        Separator = True
-        SubMenuItemSpacing = 4
-      end
-      item
         Action = installAction
         CanSelect = False
         SubItems = <>
@@ -4772,6 +4764,14 @@ object mainFrm: TmainFrm
       end
       item
         Action = infoAction
+        CanSelect = False
+        SubItems = <>
+        SubMenuCaption = 'SubMenuCaption'
+        Separator = True
+        SubMenuItemSpacing = 4
+      end
+      item
+        Action = exitAction
         CanSelect = False
         SubItems = <>
         SubMenuCaption = 'SubMenuCaption'
@@ -5044,7 +5044,7 @@ object mainFrm: TmainFrm
     Left = 161
     Top = 240
     Bitmap = {
-      494C01010B001800380030003000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010B0018003C0030003000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000C000000090000000010020000000000000B0
       0100000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -8619,7 +8619,7 @@ object mainFrm: TmainFrm
     Left = 196
     Top = 240
     Bitmap = {
-      494C010104000C00380010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010104000C003C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000002000000001002000000000000020
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -8894,11 +8894,6 @@ object mainFrm: TmainFrm
     Version = '1.2.4.0'
     Left = 435
     Top = 310
-  end
-  object ExeInfo2: TExeInfo
-    Version = '1.2.4.0'
-    Left = 581
-    Top = 227
   end
   object AdvPanelStyler1: TAdvPanelStyler
     Tag = 0
@@ -9258,7 +9253,7 @@ object mainFrm: TmainFrm
     Left = 231
     Top = 247
     Bitmap = {
-      494C01010B0018001C0018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C01010B001800200018001800FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000060000000480000000100200000000000006C
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

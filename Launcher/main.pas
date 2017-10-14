@@ -46,7 +46,6 @@ type
     AdvToolBarButton10: TAdvToolBarButton;
     AdvToolBarButton11: TAdvToolBarButton;
     ExeInfo1: TExeInfo;
-    ExeInfo2: TExeInfo;
     AdvToolBarMenuButton1: TAdvToolBarMenuButton;
     WelcomePage: TWebBrowser;
     TwitterWeb: TWebBrowser;
@@ -176,6 +175,7 @@ begin
     mainFrm.WebUpdateWizard1.Language:=mainFrm.WebUpdateWizardEnglish1;
     LicenseFile:=ExtractFilePath(Application.ExeName)+'license.txt';
     HelpFile:=ExtractFilePath(Application.ExeName)+'help.chm';
+    welcomePage.Navigate('http://www.andhilldev.de/software/andhilltech/welcomepageen.php');
   end
   else
   begin
@@ -183,6 +183,7 @@ begin
     mainFrm.WebUpdateWizard1.Language:=mainFrm.WebUpdateWizardGerman1;
     LicenseFile:=ExtractFilePath(Application.ExeName)+'lizenz.txt';
     HelpFile:=ExtractFilePath(Application.ExeName)+'hilfe.chm';
+    welcomePage.Navigate('http://www.andhilldev.de/software/andhilltech/welcomepage.php');
   end;
   with mainFrm do
   begin
@@ -303,6 +304,9 @@ begin
     TextRegisterMod:=ReadFromIni(langFile,'Installation','Text.RegisterMod');
     TextModReg:=ReadFromIni(langFile,'Installation','Text.ModReg');
   end;
+  addonloader.ClearPlugins;
+  addonmenu.Items.Clear;
+  AddonLoader.LoadFromFolder(ExtractFilePath(application.ExeName)+'Addons',true);
 end;
 
 procedure TmainFrm.LoadConfig(ConfigFile: String);
@@ -396,8 +400,7 @@ begin
   Application.Title:=GetProgramTitle(exeinfo1.ProductName, exeinfo1.FileVersion);
   mainFrm.Caption:=Application.Title;
   AdvToolBarPager1.Caption.Caption:=Application.Title;
-  
-  //mainFrm.DoubleBuffered:=true;
+
   UrlDownloadToFile(nil, PChar('http://www.andhilldev.de/software/andhilltech/files/launcher.mcm'), PChar(ExtractFilePath(application.ExeName)+'launcher.mcm'), 0, nil);
   LoadConfig(ExtractFilePath(Application.ExeName)+'config.json');
   
@@ -425,9 +428,6 @@ begin
   except
     MessageDlg(MissingMCM, mtError, [mbOK], 0);
   end;
-
-
-
 end;
 
 procedure TmainFrm.AdvSplitter1CanResize(Sender: TObject;
@@ -439,8 +439,6 @@ end;
 procedure TmainFrm.FormShow(Sender: TObject);
 begin
   twitterWeb.Navigate('http://www.andhilldev.de/software/andhilltech/twitter.php');
-  welcomePage.Navigate('http://www.andhilldev.de/software/andhilltech/welcomepage.php');
-  AddonLoader.LoadFromFolder(ExtractFilePath(application.ExeName)+'Addons',true);
   LoadLanguage(LanguageIndex);
   InstallFrm.lizenzvertrag.Lines.Clear;
   InstallFrm.lizenzvertrag.Lines.LoadFromFile(mainFrm.LicenseFile);
